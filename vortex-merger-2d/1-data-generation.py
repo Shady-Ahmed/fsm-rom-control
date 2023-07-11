@@ -120,6 +120,15 @@ for k in range(1,nt+1):
         print(k, " ", time)
 
 #%%
+
+# create plot folder
+if os.path.isdir("./plots"):
+    print('Plots folder already exists')
+else: 
+    print('Creating plots folder')
+    os.makedirs("./plots")
+
+
 # contour plot for initial and final vorticity
 fig, axs = plt.subplots(1,2,sharey=True,figsize=(9,5))
 
