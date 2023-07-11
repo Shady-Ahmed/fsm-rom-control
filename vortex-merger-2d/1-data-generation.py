@@ -44,7 +44,7 @@ def vm_ic(nx,ny,x,y):
   
 #%% inputs
     
-re = 1000 #Reynolds number
+re = 5000 #Reynolds number
   
 pi = np.pi
 lx = 2.0*pi
